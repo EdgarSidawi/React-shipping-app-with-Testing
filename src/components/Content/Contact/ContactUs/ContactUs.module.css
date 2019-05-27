@@ -1,0 +1,29 @@
+.contactUs {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* min-width: 500px; */
+}
+
+.contactInfo {
+  width: 100%;
+  display: inline-block;
+  /* border: 1px solid orange; */
+}
+
+.contactInfo ul {
+  padding-right: 20px;
+}
+
+.contactInfo ul li {
+  list-style: none;
+  width: 100%;
+}
+.contactInfo ul li a {
+  text-decoration: none;
+}
+
+#header {
+  font-weight: bold;
+  text-decoration: underline;
+}

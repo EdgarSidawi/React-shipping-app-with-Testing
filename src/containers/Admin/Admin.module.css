@@ -1,0 +1,47 @@
+.Admin {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: auto;
+  min-width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.Admin_content {
+  width: 100%;
+  min-width: 500px;
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between; */
+  padding-bottom: 50px;
+}
+
+.Admin_content p {
+  text-align: center;
+  color: red;
+}
+
+.Admin_content form {
+  width: 30%;
+  margin: auto;
+  /* left: 50%; */
+  /* border: 1px solid gray; */
+}
+.Admin_content input {
+  margin: auto;
+  width: 100%;
+  /* border: 1px solid gray; */
+}
+
+.Admin_content button {
+  margin: 10px 0px 0px 17px;
+  width: 50%;
+  height: 30px;
+  background-color: brown;
+  color: white;
+}
+
+.admin_content button:hover {
+  background-color: white;
+  color: brown;
+}

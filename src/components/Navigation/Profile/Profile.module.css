@@ -1,0 +1,39 @@
+.Profile {
+  width: 100%;
+}
+
+.Profile_content {
+  margin: auto;
+  width: 100%;
+}
+
+.Profile_content p {
+  font-size: 0.9rem;
+}
+.Profile_content b {
+  font-size: 1.1rem;
+}
+
+.Profile_content table {
+  /* border: 1px solid #ccc; */
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  /* border-collapse: collapse; */
+}
+
+/* .Profile_content table td { */
+/* border: 1px solid #ccc; */
+/* margin: 5px 10px; */
+/* } */
+.Profile_content table td label {
+  vertical-align: top;
+}
+
+.Profile_content textarea {
+  font-family: inherit;
+  border: none;
+  font-size: inherit;
+  text-decoration: none;
+  all: inherit;
+}

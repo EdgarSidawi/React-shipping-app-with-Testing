@@ -1,0 +1,75 @@
+.quickMessage {
+  width: 100%;
+  margin-top: 10%;
+  /* border: 1px solid red; */
+  min-width: 500px;
+}
+
+.quickMessage__content {
+  width: 100%;
+}
+
+.quickMessage__content fieldset {
+  width: 60%;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  border-color: #ccc;
+}
+
+.quickMessage__content tr {
+  height: 60px;
+}
+
+.quickMessage__content td {
+  padding: 10px;
+  width: 50%;
+  /* border: 1px solid grey; */
+}
+
+.quickMessage__content td input {
+  width: 400px;
+}
+
+.quickMessage__content td textarea {
+  font-family: inherit;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.quickMessage__content legend {
+  border: 5px solid red;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.quickMessage__content label {
+  font-weight: 500;
+}
+
+.quickMessage__content input {
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.quickMessage__content span {
+  color: red;
+}
+
+.quickMessage__content button {
+  width: 150px;
+  height: 40px;
+  background-color: brown;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.quickMessage__content button:hover {
+  background-color: white;
+  color: brown;
+}

@@ -1,0 +1,35 @@
+.NavigationItems {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* border: 3px solid green; */
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+  min-height: 40px;
+  min-width: 100px;
+}
+
+.NavigationItems a {
+  text-decoration: none;
+  /* border: 1px solid blue; */
+  padding-top: 20px;
+  height: 20px;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+
+.NavigationItems a:hover,
+.NavigationItems a:active,
+.NavigationItems a.active {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+}
+
+@media (min-width: 50%) {
+  .NavigationItems {
+    width: 50%;
+  }
+}

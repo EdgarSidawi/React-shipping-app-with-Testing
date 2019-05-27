@@ -1,0 +1,45 @@
+.Users {
+  width: 100%;
+  height: 100%;
+  min-width: 50px;
+  margin: auto;
+}
+
+.Users a {
+  text-decoration: none;
+}
+
+.Users a:hover {
+  color: white;
+}
+
+.Users_content p {
+  width: 100%;
+  cursor: pointer;
+  color: blue;
+}
+
+.Users_content p:hover {
+  color: red;
+}
+
+.Users_content_signIn {
+  padding-left: 59%;
+  padding-top: 10%;
+}
+.Users_content_signOut {
+  display: flex;
+}
+.Users_content_signOut h4 {
+  cursor: pointer;
+}
+
+.Users_content_signOut h4:hover {
+  color: white;
+}
+
+.Users_content_signOut p {
+  width: 50%;
+  margin: auto;
+  text-align: right;
+}

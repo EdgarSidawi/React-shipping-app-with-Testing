@@ -1,0 +1,19 @@
+.upperFooter {
+  margin: auto;
+  padding-top: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.upperFooter a {
+  text-decoration: none;
+}
+/* .upperFooter a:hover,
+.upperFooter a:active,
+.upperFooter a.active {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+} */

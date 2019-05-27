@@ -1,0 +1,39 @@
+.SignIn {
+  width: 100%;
+  height: 100%;
+}
+
+.SignIn_info {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+  /* border: 1px solid #ccc; */
+}
+
+.SignIn_info hr {
+  width: 40%;
+}
+
+.SignIn_info form {
+  padding: 10px;
+}
+
+.SignIn_info input {
+  width: 40%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.SignIn_info button {
+  width: 20%;
+  color: white;
+  height: 30px;
+  background-color: brown;
+}
+
+.SignIn_info button:hover {
+  background-color: white;
+  color: brown;
+}

@@ -1,0 +1,13 @@
+.Layout {
+  width: 100%;
+  height: 90px;
+  min-width: 500px;
+  background-color: orange;
+  /* border: 1px solid black; */
+  /* background-color: blue; */
+}
+
+.main {
+  width: 100%;
+  min-width: 500px;
+}
